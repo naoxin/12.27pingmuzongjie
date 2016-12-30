@@ -1,9 +1,10 @@
 package com.result.autolayout;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import im.quar.autolayout.AutoLayoutActivity;
+
+public class MainActivity extends AutoLayoutActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

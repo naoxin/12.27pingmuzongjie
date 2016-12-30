@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<im.quar.autolayout.view.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="match_parent" android:layout_height="120px"
+    android:orientation="horizontal"
     >
 
-    
-</RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Text_margin_left"
+            android:layout_marginTop="@dimen/XML_margin_TOP"
+            android:text="刘东东 LIU.DONGDONG"
+            android:textColor="@color/text_colorAccent"
+            android:textSize="@dimen/Text_margin_size"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/Text_margin_left"
+            android:text="护照：G56781478"
+            android:textColor="@color/text2_colorAccent"
+            android:textSize="@dimen/Text_margin_size"
+            android:layout_marginTop="@dimen/XML_margin_TOP"
+            />
+</im.quar.autolayout.view.AutoLinearLayout>
